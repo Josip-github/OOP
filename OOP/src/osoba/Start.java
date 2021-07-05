@@ -36,7 +36,7 @@ public class Start {
 			
 			osoba = new Osoba();
 			osoba.setIme(JOptionPane.showInputDialog("Unesite ime osobe"));
-			osoba.setEmail(osoba.getIme() + "firma@gmail.com");
+			osoba.setEmail(osoba.getIme().toLowerCase() + "firma@gmail.com");
 			osoba.setNacionalnost(
 					JOptionPane.showInputDialog("Unesite nacionalnost osobe"));
 			osoba.setId(random.nextInt());
