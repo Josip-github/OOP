@@ -9,9 +9,9 @@ public class BiljkeSuhihStanista extends Biljka {
 		// TODO Auto-generated constructor stub
 	}
 
-	public BiljkeSuhihStanista(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, String boja,
+	public BiljkeSuhihStanista(boolean rast, boolean razmnozavanje, boolean probavniSustav, String boja,
 			String okolis, boolean imaLisce) {
-		super(pokretljivost, razmnozavanje, probavniSustav, boja);
+		super(rast, razmnozavanje, probavniSustav, boja);
 		this.okolis = okolis;
 		this.imaLisce = imaLisce;
 	}

@@ -9,8 +9,8 @@ public class Biljka extends ZiviOrganizam {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Biljka(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, String boja) {
-		super(pokretljivost, razmnozavanje);
+	public Biljka(boolean rast, boolean razmnozavanje, boolean probavniSustav, String boja) {
+		super(rast, razmnozavanje);
 		this.probavniSustav = probavniSustav;
 		this.boja = boja;
 	}
