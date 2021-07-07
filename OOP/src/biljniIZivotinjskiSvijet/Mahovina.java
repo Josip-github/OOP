@@ -9,9 +9,9 @@ public class Mahovina extends BiljkeVlaznihStanista {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Mahovina(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, String boja, String okolis,
+	public Mahovina(boolean rast, boolean razmnozavanje, boolean probavniSustav, String boja, String okolis,
 			boolean imaLisce, int velicina, String oblik) {
-		super(pokretljivost, razmnozavanje, probavniSustav, boja, okolis, imaLisce);
+		super(rast, razmnozavanje, probavniSustav, boja, okolis, imaLisce);
 		this.velicina = velicina;
 		this.oblik = oblik;
 	}
@@ -30,5 +30,12 @@ public class Mahovina extends BiljkeVlaznihStanista {
 
 	public void setOblik(String oblik) {
 		this.oblik = oblik;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Mahovina - ima probavni sustav: " + super.isProbavniSustav() 
+		+ ", velièina u m: " + this.velicina + ", oblik: " + this.oblik;
 	}
 }
