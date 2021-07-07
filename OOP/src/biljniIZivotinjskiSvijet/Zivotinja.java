@@ -2,25 +2,25 @@ package biljniIZivotinjskiSvijet;
 
 public class Zivotinja extends ZiviOrganizam {
 
-	private int velicina;
+	private boolean probavniSustav;
 	private boolean pokretljivost;
 
 	public Zivotinja() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Zivotinja(boolean pokretljivost, boolean razmnozavanje, int velicina, boolean pokretljivost2) {
+	public Zivotinja(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2) {
 		super(pokretljivost, razmnozavanje);
-		this.velicina = velicina;
+		this.probavniSustav = probavniSustav;
 		pokretljivost = pokretljivost2;
 	}
 
-	public int getVelicina() {
-		return velicina;
+	public boolean isProbavniSustav() {
+		return probavniSustav;
 	}
 
-	public void setVelicina(int velicina) {
-		this.velicina = velicina;
+	public void setProbavniSustav(boolean probavniSustav) {
+		this.probavniSustav = probavniSustav;
 	}
 
 	public boolean isPokretljivost() {
