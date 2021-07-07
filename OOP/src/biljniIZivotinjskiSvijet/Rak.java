@@ -2,22 +2,22 @@ package biljniIZivotinjskiSvijet;
 
 public class Rak extends Clankonozac {
 
-	private int velicina;
+	private double velicina;
 	private String boja;
 
 	public Rak() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Rak(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2,
-			boolean imaKraljeznicu, String okolis, boolean presvlacenje, String gradja, int velicina, String boja) {
-		super(pokretljivost, razmnozavanje, probavniSustav, pokretljivost2, imaKraljeznicu, okolis, presvlacenje,
+	public Rak(boolean rast, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2,
+			boolean imaKraljeznicu, String okolis, boolean presvlacenje, String gradja, double velicina, String boja) {
+		super(rast, razmnozavanje, probavniSustav, pokretljivost2, imaKraljeznicu, okolis, presvlacenje,
 				gradja);
 		this.velicina = velicina;
 		this.boja = boja;
 	}
 
-	public int getVelicina() {
+	public double getVelicina() {
 		return velicina;
 	}
 
@@ -31,6 +31,13 @@ public class Rak extends Clankonozac {
 
 	public void setBoja(String boja) {
 		this.boja = boja;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Rak - presvlaèi se: " + super.isPresvlacenje() + ", velièina u m: " 
+				+ this.velicina + ", boja: " + this.boja;
 	}
 
 }

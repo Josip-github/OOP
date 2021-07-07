@@ -9,9 +9,9 @@ public class Beskraljeznjak extends Zivotinja {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Beskraljeznjak(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2,
+	public Beskraljeznjak(boolean rast, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2,
 			boolean imaKraljeznicu, String okolis) {
-		super(pokretljivost, razmnozavanje, probavniSustav, pokretljivost2);
+		super(rast, razmnozavanje, probavniSustav, pokretljivost2);
 		this.imaKraljeznicu = imaKraljeznicu;
 		this.okolis = okolis;
 	}

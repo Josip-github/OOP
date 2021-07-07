@@ -9,9 +9,9 @@ public class Clankonozac extends Beskraljeznjak {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Clankonozac(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2,
+	public Clankonozac(boolean rast, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2,
 			boolean imaKraljeznicu, String okolis, boolean presvlacenje, String gradja) {
-		super(pokretljivost, razmnozavanje, probavniSustav, pokretljivost2, imaKraljeznicu, okolis);
+		super(rast, razmnozavanje, probavniSustav, pokretljivost2, imaKraljeznicu, okolis);
 		this.presvlacenje = presvlacenje;
 		this.gradja = gradja;
 	}
