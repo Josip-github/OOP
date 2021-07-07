@@ -1,5 +1,35 @@
 package biljniIZivotinjskiSvijet;
 
-public class Beskraljeznjak {
+public class Beskraljeznjak extends Zivotinja {
+
+	private boolean imaKraljeznicu;
+	private String okolis;
+
+	public Beskraljeznjak() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Beskraljeznjak(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2,
+			boolean imaKraljeznicu, String okolis) {
+		super(pokretljivost, razmnozavanje, probavniSustav, pokretljivost2);
+		this.imaKraljeznicu = imaKraljeznicu;
+		this.okolis = okolis;
+	}
+
+	public boolean isImaKraljeznicu() {
+		return imaKraljeznicu;
+	}
+
+	public void setImaKraljeznicu(boolean imaKraljeznicu) {
+		this.imaKraljeznicu = imaKraljeznicu;
+	}
+
+	public String getOkolis() {
+		return okolis;
+	}
+
+	public void setOkolis(String okolis) {
+		this.okolis = okolis;
+	}
 
 }
