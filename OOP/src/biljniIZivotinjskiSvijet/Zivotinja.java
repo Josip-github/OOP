@@ -9,8 +9,8 @@ public class Zivotinja extends ZiviOrganizam {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Zivotinja(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2) {
-		super(pokretljivost, razmnozavanje);
+	public Zivotinja(boolean rast, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2) {
+		super(rast, razmnozavanje);
 		this.probavniSustav = probavniSustav;
 		pokretljivost = pokretljivost2;
 	}

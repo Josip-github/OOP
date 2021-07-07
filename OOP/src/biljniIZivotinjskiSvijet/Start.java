@@ -3,7 +3,9 @@ package biljniIZivotinjskiSvijet;
 public class Start {
 	
 	public Start() {
-		// TODO Auto-generated constructor stub
+		
+		Deva deva = new Deva(true, true, true, true, true, "kopno", true, "mlijekom", 2, "smeða");
+		System.out.println(deva);
 	}
 	
 	public static void main(String[] args) {

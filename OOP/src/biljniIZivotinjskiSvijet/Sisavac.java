@@ -9,9 +9,9 @@ public class Sisavac extends Kraljeznjak {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Sisavac(boolean pokretljivost, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2,
+	public Sisavac(boolean rast, boolean razmnozavanje, boolean probavniSustav, boolean pokretljivost2,
 			boolean imaKraljeznicu, String okolis, boolean zubi, String hranjenjePodmlatka) {
-		super(pokretljivost, razmnozavanje, probavniSustav, pokretljivost2, imaKraljeznicu, okolis);
+		super(rast, razmnozavanje, probavniSustav, pokretljivost2, imaKraljeznicu, okolis);
 		this.zubi = zubi;
 		this.hranjenjePodmlatka = hranjenjePodmlatka;
 	}

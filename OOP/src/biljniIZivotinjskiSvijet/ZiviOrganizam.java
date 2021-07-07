@@ -9,9 +9,9 @@ public class ZiviOrganizam {
 		// TODO Auto-generated constructor stub
 	}
 
-	public ZiviOrganizam(boolean pokretljivost, boolean razmnozavanje) {
+	public ZiviOrganizam(boolean rast, boolean razmnozavanje) {
 		super();
-		this.rast = pokretljivost;
+		this.rast = rast;
 		this.razmnozavanje = razmnozavanje;
 	}
 
